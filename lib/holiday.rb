@@ -1,8 +1,5 @@
 require 'pry'
 
-def fuck
-  ["hello", "fuck", "off"]
-end
 
 def test_h
 {
@@ -62,7 +59,7 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].values.each do |x|
     puts "#{x}"
-  end.flatten
+  end.flatten #$$$$$$
   
 end
 
